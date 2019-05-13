@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Volta Core
+Comment=Connect to the Volta P2P Network
+Comment[de]=Verbinde mit dem Volta peer-to-peer Netzwerk
+Comment[fr]=Volta, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Volta, eşten eşe kriptografik sanal para birimi
+Exec=volta-qt %u
+Terminal=false
+Type=Application
+Icon=volta128
+MimeType=x-scheme-handler/volta;
+Categories=Office;Finance;P2P;Network;Qt;
+StartupWMClass=volta-qt

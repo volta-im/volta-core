@@ -1,0 +1,11 @@
+[Protocol]
+exec=volta-qt '%u'
+protocol=volta
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

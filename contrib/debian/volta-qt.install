@@ -1,0 +1,6 @@
+usr/local/bin/volta-qt usr/bin
+share/pixmaps/volta32.xpm usr/share/pixmaps
+share/pixmaps/volta16.xpm usr/share/pixmaps
+share/pixmaps/volta128.png usr/share/pixmaps
+debian/volta-qt.desktop usr/share/applications
+debian/volta-qt.protocol usr/share/kde4/services/

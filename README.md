@@ -2,7 +2,7 @@
 
 **Email**: contact@volta.im<br/>
 **Discord**: https://discord.gg/<br/>
-**Twitter**: https://twitter.com/volta<br/>
+**Twitter**: https://twitter.com/voltacrypto<br/>
 **Medium**: https://medium.com/@volta-im<br/>
 **BitcoinTalk**: https://bitcointalk.org/index.php?topic<br/>
 

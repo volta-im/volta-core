@@ -1,0 +1,33 @@
+# /etc/conf.d/voltad: config file for /etc/init.d/voltad
+
+# Config file location
+#VoltaD_CONFIGFILE="/etc/volta/volta.conf"
+
+# What directory to write pidfile to?  (created and owned by $VoltaD_USER)
+#VoltaD_PIDDIR="/var/run/voltad"
+
+# What filename to give the pidfile
+#VoltaD_PIDFILE="${VoltaD_PIDDIR}/voltad.pid"
+
+# Where to write voltad data (be mindful that the blockchain is large)
+#VoltaD_DATADIR="/var/lib/voltad"
+
+# User and group to own voltad process
+#VoltaD_USER="volta"
+#VoltaD_GROUP="volta"
+
+# Path to voltad executable
+#VoltaD_BIN="/usr/bin/voltad"
+
+# Nice value to run voltad under
+#VoltaD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#VoltaD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for voltad to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+VoltaD_SIGTERM_TIMEOUT=60

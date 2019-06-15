@@ -109,10 +109,10 @@ public:
         nDefaultPort = 14143; // RPC: 13143
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1560477793, 515861116, UintToArith256(consensus.powLimit).GetCompact(), 1);
+        genesis = CreateGenesisBlock(1560597113, 544152949, UintToArith256(consensus.powLimit).GetCompact(), 1);
         consensus.hashGenesisBlock = genesis.GetPoWHash(ALGO_BLAKE);
 
-        assert(consensus.hashGenesisBlock == uint256S("0x0000007a2049e2edf77da97996112178a3a0589fd0ff5f1ca255672385171a61"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000001161c6225698995a1659f962d72ddc46567cafdcd673b6271a9b1ad02d"));
         assert(genesis.hashMerkleRoot == uint256S("0xb89ee2bce23f5aac5c715d4e54e22a8577ad1864917aa131f1dc83802d9e883c"));
 
         // Note that of those which support the service bits prefix, most only support a subset of

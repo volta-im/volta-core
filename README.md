@@ -37,6 +37,6 @@ Binaries (pre-compiled wallets) are available on the GitHub [releases page](http
 
 Compiling Volta Core
 ----------------------
-For Unix, please see [here](blob/master/doc/build-unix.md).<br/>
-For Windows (both 32-bit & 64-bit), please see [here](blob/master/doc/build-windows.md).<br/>
-For Mac, please see [here](blob/master/doc/build-osx.md).<br/>
+For Unix, please see [here](doc/build-unix.md).<br/>
+For Windows (both 32-bit & 64-bit), please see [here](doc/build-windows.md).<br/>
+For Mac, please see [here](doc/build-osx.md).<br/>

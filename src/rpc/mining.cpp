@@ -68,6 +68,7 @@ static UniValue GetNetworkHashPS(int lookup, int height, int algo = ALGO) {
         int64_t time = pb0->GetBlockTime();
         minTime = std::min(time, minTime);
         maxTime = std::max(time, maxTime);
+        pb0 = pb0->pprev;
     }
 
     // In case there's a situation where minTime == maxTime, we don't want a divide by zero exception.
@@ -75,7 +76,7 @@ static UniValue GetNetworkHashPS(int lookup, int height, int algo = ALGO) {
         return 0;
     
     int64_t timeDiff = maxTime - minTime;
-    printf("work: %s, time: %d", workTotal.GetHex().c_str(), timeDiff);
+    // printf("work: %s, time: %d", workTotal.GetHex().c_str(), timeDiff);
     workTotal /= GetAlgoWeight(algo); // reverse algo weighting
 
     return workTotal.getdouble() / timeDiff;

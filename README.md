@@ -34,8 +34,8 @@ Specifications:
 
 Binaries (pre-compiled wallets) are available on the GitHub [releases page](https://github.com/volta-im/volta-core/releases/tag/stable).
 
-**Note to developers/sysadmins:**
-The default datadir is `$HOME/volta` on *nix and  `%appdata%/volta` on windows
+**Note to developers/sysadmins:**<br/>
+The default datadir is `$HOME/volta` on *nix and  `%appdata%/volta` on windows<br/>
 The config file (if created) is located in the datadir as `Volta.conf` (case-sensitive)
 
 Compiling Volta Core
